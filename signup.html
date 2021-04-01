@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>
+      naver signup
+    </title>
+  </head>
+  <body>
+    <div id ="header">
+      <a href="http://www.naver.com"><img src="naver.png" alt="naver" id="naver"></a>
+    </div>
+    <content>
+      <div class = "box">
+          User name
+        <div>
+          <input type="text" id="username" value="@naver.com"/>
+        </div>
+      </div>
+      <div id="passwordbox" class = "box">
+        <div>
+          Password
+        </div>
+        <div>
+          <input type="password" id="password"/>
+        </div>
+      </div>
+      <div class = "box">
+        <div>
+          Password confirm
+        </div>
+        <div>
+          <input type="password" id="passwordconfirm"/>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          Name
+        </div>
+        <div>
+          <input type="text" placeholder="first name" id="firstname"/>
+            <span>
+              <input type="text" placeholder="last name" id="lastname"/>
+            </span>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          DoB
+        </div>
+        <div>
+          <input type="text" placeholder="Year(4dgt)" id="year"/>
+          <span>
+            <select name="month" id="month">
+              <option value="">Month</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </span>
+          <span>
+            <input type="text" placeholder="Day" id="day">
+          </span>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          Gender
+        </div>
+        <div>
+           <select name="Gender" id="gender">
+             <option value="">Gender</option>
+             <option value="female">female</option>
+             <option value="male">male</option>
+             <option value="other">other</option>
+           </select>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          Recovery E-mail(option)
+        </div>
+        <div>
+          <input type="text" placeholder="Optional" id="recovery">
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          Mobile Phone
+        </div>
+        <div>
+          <select name="area code" id="areacode">
+            <option value="Korea+82">Korea+82</option>
+          </select>
+        </div>
+        <div>
+          <input type="text" placeholder="Enter phone number" id="phonenumber">
+          <span>
+            <input type="button" value="Send Code" id="sendcode">
+          </span>
+        </div>
+        <div>
+          <input type="text" placeholder="Enter verification code" id="veri">
+        </div>
+      </div>
+      <div>
+        <input type="button" value="Sign Up" id="signup">
+      </div>
+
+
+    </content>
+  </body>
+  <style>
+    #header{
+      text-align:center;
+    }
+    content{
+      position:absolute;
+      left:50%;
+      transform:translate(-50%)
+    }
+    #username{
+      width:500px;
+      height:50px;
+    }
+    #password{
+      width:500px;
+      height:50px;
+    }
+    #passwordconfirm{
+      width:500px;
+      height:50px;
+    }
+    #firstname{
+      width:250px;
+      height:50px;
+    }
+    #lastname{
+      width:250px;
+      height:50px;
+    }
+    #year{
+      width:125px;
+      height:50px;
+    }
+    #month{
+      width:125px;
+      height:50px;
+    }
+    #day{
+      width:125px;
+      height:50px;
+    }
+    #naver{
+      width:250px;
+    }
+    input{
+      border:1px solid lightgrey
+    }
+    select{
+      border:1px solid lightgrey;
+      color:grey;
+    }
+    #gender{
+      width:500px;
+      height:50px;
+    }
+    #recovery{
+      width:500px;
+      height:50px;
+    }
+    #areacode{
+      width:500px;
+      height:50px;
+    }
+    #phonenumber{
+      width:350px;
+      height:50px;
+    }
+    #sendcode{
+      width:150px;
+      height:50px;
+      background-color:lightgreen;
+    }
+    #veri{
+      width:500px;
+      height:50px;
+    }
+    #signup{
+      width:500px;
+      height:50px;
+      background-color:lightgreen;
+    }
+    #un{
+      /*text-align:left;*/
+    }
+    #username-box{
+      /*text-align: center;
+      width:460px;*/
+    }
+    .box{
+      Margin-bottom:20px;
+    }
+    div{
+      font-family: arial, sans-serif;
+    }
+  </style>
+</html>
